@@ -11,7 +11,11 @@ Search for MemberPress members right from your WordPress Dashboard. Saves you a 
 
 == Description ==
 
-I developed this plugin to manage members easier and faster. You can now search for members very quickly from your main Dashboard page instead of having to click to the MemberPress > Members page. Also, the plugin allows you to hit your [ENTER] key to search instead of having to click the "GO" button. Whatever is entered will be searched within all fields (user, first name, last name, email, ID).
+I developed this FREE plugin to manage MemberPress members easier and faster. 
+
+You can now search for members right from your main Dashboard page instead of clicking to MemberPress > Members. 
+
+The plugin also allows you to hit your [ENTER] key to search instead of having to click the “GO” button. Whatever is entered will be searched within all fields (user, first name, last name, email, ID).
 
 = Features: =
 
