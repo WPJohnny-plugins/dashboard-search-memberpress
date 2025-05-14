@@ -1,21 +1,17 @@
 === Dashboard Search for MemberPress ===
-Contributors: treeflips
+Contributors: treeflips, zeroneit
 Donate link: https://www.paypal.me/wpjohnny
 Tags: memberpress, search, members, membership
 Requires at least: 4.0
-Tested up to: 5.4.2
-Stable tag: 1.0.0
+Tested up to: 6.8
+Stable tag: 1.1.1
 License: GPL-2.0+
 
 Search for MemberPress members right from your WordPress Dashboard. Saves you a few clicks.
 
 == Description ==
 
-I developed this FREE plugin to manage MemberPress members easier and faster. 
-
-You can now search for members right from your main Dashboard page instead of clicking to MemberPress > Members. 
-
-The plugin also allows you to hit your [ENTER] key to search instead of having to click the “GO” button. Whatever is entered will be searched within all fields (user, first name, last name, email, ID).
+I developed this plugin to manage members easier and faster. You can now search for members very quickly from your main Dashboard page instead of having to click to the MemberPress > Members page. Also, the plugin allows you to hit your [ENTER] key to search instead of having to click the "GO" button. Whatever is entered will be searched within all fields (user, first name, last name, email, ID).
 
 = Features: =
 
@@ -45,6 +41,13 @@ No. It's one tiny little 1KB javascript file that loads only on two backend page
 1. Search box from WP Dashboard.
 
 == Changelog ==
+= 1.1.1 =
+- Tested with WordPress 6.8
+- Minor version bump for compatibility
+
+= 1.1 =
+- Description was updated.
+- Program code was cleaned professionally.
 
 = 1.0.0 =
 

@@ -2,9 +2,12 @@
 /**
  * Plugin Name: Dashboard Search for MemberPress
  * Description: Adds a widget to search MemberPress member information by any field (email, username, first and last name, id) from the WordPress Dashboard.
- * Version: 1.0.0
- * Author: WPJohnny
- * Author URI: https://wpjohnny.com/
+ * Plugin URI: https://wpjohnny.com/dashboard-search-for-memberpress/
+ * Version: 1.1.1
+ * Author: <a href="https://wpjohnny.com">WPJohnny</a>, <a href="https://profiles.wordpress.org/zeroneit/">zerOneIT</a>
+ * Donate link: https://www.paypal.me/wpjohnny
+ * License:      GPL v2 or later
+ * License URI:  https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -21,7 +24,7 @@ add_action( 'wp_dashboard_setup', function() {
 	wp_add_dashboard_widget(
 		'wpj_mp_dashboard_search_widget',
 		__( 'Search MemberPress Member', 'wpj-mp-dashboard-search' ),
-		'wpj_mp_dashboard_search_widget_function'
+		'wpjDashboardSearchWidget'
 	);
 });
 
@@ -32,7 +35,7 @@ add_action( 'wp_dashboard_setup', function() {
  * @access public
  * @return void
  */
-function wpj_mp_dashboard_search_widget_function() {
+function wpjDashboardSearchWidget() {
 	?>
 		<div class="wpj_mp_dashboard_search">
 			<p class="wpj_mp_dashboard_search__wrap">
